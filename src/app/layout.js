@@ -4,8 +4,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Next App',
-  description: 'Next.js starter app',
+  title: 'Vibe Sync',
+  description: 'Music recommendation system',
+  icons: "/music.ico"
 }
 
 export default function RootLayout({ children }) {
